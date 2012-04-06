@@ -1,3 +1,6 @@
+# By considering the terms in the Fibonacci sequence whose values do not exceed
+# four million, find the sum of the even-valued terms.
+
 def fib_sequence_to(limit, sequence=[0,1])
 
   sequence << sequence[-1] + sequence[-2]
